@@ -18,6 +18,7 @@ zFloor = 0; //Where the floor is that we'll land on
 tiles[0] = layer_tilemap_get_id(layer_get_id("Tiles16"));
 tiles[1] = layer_tilemap_get_id(layer_get_id("Tiles32"));
 tiles[2] = layer_tilemap_get_id(layer_get_id("Tiles48"));
+water[0] = layer_tilemap_get_id(layer_get_id("water"));
 
 //Debugging
 showTileCollisions = false;

@@ -5,8 +5,15 @@ depth = -bbox_bottom + z * 2;
 //My shadow
 draw_sprite(sprPlayerShadow, 0, x, y + zFloor);
 
-//The player, with z axis
-draw_sprite(sprPlayer, 0, x, y + z);
+
+
+if (TileMeeting3D(x + xSpeed, y, water)){
+	draw_sprite(sprPlayerSwimming, subimg, x, y + z + 15);
+}
+else {
+	//The player, with z axis
+	draw_sprite(sprPlayer, subimg, x, y + z);
+}
 
 //Draw tiles
 if (showTileCollisions) {

@@ -8,15 +8,31 @@ var jump = keyboard_check_pressed(vk_space);
 //Basic x & y Movement
 if (left) {
 	xSpeed = -moveSpeed;
+	subimg = 4;
 }
 if (right) {
 	xSpeed = moveSpeed;
+	subimg = 7;
 }
 if (up) {
 	ySpeed = -moveSpeed;
+	subimg = 5;
+	if (left) {
+	subimg = 2;
+	}
+	if (right) {
+	subimg = 1;
+	}
 }
 if (down) {
 	ySpeed = moveSpeed;
+	subimg = 0;
+	if (left) {
+	subimg = 3;
+	}
+	if (right) {
+	subimg = 6;
+	}
 }
 
 //Stop moving when keys are no longer being pressed
