@@ -6,33 +6,30 @@ var down = keyboard_check(ord("S"));
 var jump = keyboard_check_pressed(vk_space);
 
 //Basic x & y Movement
+
+if (subimg == 3){
+	subimg = 0;
+}
+else{
+	subimg+=1;
+}
+
 if (left) {
 	xSpeed = -moveSpeed;
-	subimg = 4;
+	currentSprite = sprLeftSwim;
 }
 if (right) {
 	xSpeed = moveSpeed;
-	subimg = 7;
+	currentSprite = sprRightSwim;
 }
 if (up) {
 	ySpeed = -moveSpeed;
-	subimg = 5;
-	if (left) {
-	subimg = 2;
-	}
-	if (right) {
-	subimg = 1;
-	}
+	currentSprite = sprBackSwim;
 }
 if (down) {
 	ySpeed = moveSpeed;
-	subimg = 0;
-	if (left) {
-	subimg = 3;
-	}
-	if (right) {
-	subimg = 6;
-	}
+	currentSprite = sprFrontSwim;
+	
 }
 
 //Stop moving when keys are no longer being pressed

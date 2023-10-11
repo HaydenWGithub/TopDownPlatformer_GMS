@@ -22,3 +22,5 @@ water[0] = layer_tilemap_get_id(layer_get_id("water"));
 
 //Debugging
 showTileCollisions = false;
+
+currentSprite = sprFrontSwim;

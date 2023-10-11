@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
+    "name": "sprFrontSwim",
+    "path": "sprites/sprFrontSwim/sprFrontSwim.yy",
   },
   "spriteMaskId": null,
   "visible": true,
