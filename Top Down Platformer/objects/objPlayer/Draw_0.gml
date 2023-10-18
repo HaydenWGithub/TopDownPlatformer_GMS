@@ -8,7 +8,7 @@ draw_sprite(sprPlayerShadow, 0, x, y + zFloor);
 
 
 if (TileMeeting3D(x + xSpeed, y, water)){
-	draw_sprite(currentSprite, subimg, x, y + z + 15);
+	draw_sprite(currentSprite, subimg, x, y + z);
 }
 else {
 	//The player, with z axis

@@ -11,33 +11,50 @@ if (subimg == 3){
 	subimg = 0;
 }
 else{
-	subimg+=1;
+	//the number that we specify here dictates how fast our animation
+	//will go; the higher the number, the slower he moves
+	if (counter == 10){
+		subimg+=1;
+		counter = 0;
+	}
+	else {
+		counter += 1;
+	}
 }
 
 if (left) {
 	xSpeed = -moveSpeed;
 	currentSprite = sprLeftSwim;
+	
 }
 if (right) {
 	xSpeed = moveSpeed;
 	currentSprite = sprRightSwim;
+	
 }
 if (up) {
 	ySpeed = -moveSpeed;
 	currentSprite = sprBackSwim;
+	
 }
 if (down) {
 	ySpeed = moveSpeed;
 	currentSprite = sprFrontSwim;
+	
 	
 }
 
 //Stop moving when keys are no longer being pressed
 if (!up && !down) {
 	ySpeed = 0;
+	
 }
 if (!left && !right) {
 	xSpeed = 0;
+	
+}
+if (!up && !down && !left && !right){
+	subimg = 0;
 }
 
 //Jumping in the z axis

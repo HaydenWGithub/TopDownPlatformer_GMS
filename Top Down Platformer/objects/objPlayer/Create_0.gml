@@ -24,3 +24,6 @@ water[0] = layer_tilemap_get_id(layer_get_id("water"));
 showTileCollisions = false;
 
 currentSprite = sprFrontSwim;
+
+//animation counter
+counter = 0;
