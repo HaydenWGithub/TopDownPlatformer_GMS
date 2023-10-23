@@ -25,22 +25,33 @@ else{
 if (left) {
 	xSpeed = -moveSpeed;
 	currentSprite = sprLeftSwim;
+	if (z < 0){
+		currentSprite = sprLeftRun;
+	}
 	
 }
 if (right) {
 	xSpeed = moveSpeed;
 	currentSprite = sprRightSwim;
+	if (z < 0){
+		currentSprite = sprRightRun;
+	}
 	
 }
 if (up) {
 	ySpeed = -moveSpeed;
 	currentSprite = sprBackSwim;
+	if (z < 0){
+		currentSprite = sprBackRun;
+	}
 	
 }
 if (down) {
 	ySpeed = moveSpeed;
 	currentSprite = sprFrontSwim;
-	
+	if (z < 0){
+		currentSprite = sprFrontRun;
+	}
 	
 }
 

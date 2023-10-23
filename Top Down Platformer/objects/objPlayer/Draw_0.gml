@@ -2,9 +2,10 @@
 
 //Update depth before drawing self
 depth = -bbox_bottom + z * 2;
-//My shadow
-draw_sprite(sprPlayerShadow, 0, x, y + zFloor);
-
+//My shadow - only being drawn when the character is above sea/ground level
+if (z < 0){
+	draw_sprite(sprPlayerShadow, 0, x, y + zFloor);
+}
 
 
 if (TileMeeting3D(x + xSpeed, y, water)){
