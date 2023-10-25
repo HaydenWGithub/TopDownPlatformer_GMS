@@ -1,7 +1,9 @@
 /// @description Draw Myself
 
 //Update depth before drawing self
-depth = -bbox_bottom + z * 2;
+//depth = -bbox_bottom + z * 2;
+//our depth code doesn't seem to be working correctly; since
+//our 16 layer is 500 depth, standing on water we should be like 600.
 //My shadow - only being drawn when the character is above sea/ground level
 if (z < 0){
 	draw_sprite(sprPlayerShadow, 0, x, y + zFloor);

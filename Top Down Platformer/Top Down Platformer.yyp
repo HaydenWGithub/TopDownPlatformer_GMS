@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"sprPlayerShadow","path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},},
@@ -46,6 +46,7 @@
     {"id":{"name":"gentle_forest__rabite_palette","path":"sprites/gentle_forest__rabite_palette/gentle_forest__rabite_palette.yy",},},
     {"id":{"name":"sprFrontSwim","path":"sprites/sprFrontSwim/sprFrontSwim.yy",},},
     {"id":{"name":"sprBackRun","path":"sprites/sprBackRun/sprBackRun.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"sprRightSwim","path":"sprites/sprRightSwim/sprRightSwim.yy",},},
     {"id":{"name":"sprRightRun","path":"sprites/sprRightRun/sprRightRun.yy",},},
     {"id":{"name":"sprDeathObject","path":"sprites/sprDeathObject/sprDeathObject.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"sprFrontRun","path":"sprites/sprFrontRun/sprFrontRun.yy",},},
     {"id":{"name":"sprSwimmer","path":"sprites/sprSwimmer/sprSwimmer.yy",},},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"objSlow","path":"objects/objSlow/objSlow.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBackSwim","path":"sprites/sprBackSwim/sprBackSwim.yy",},},
@@ -69,7 +71,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

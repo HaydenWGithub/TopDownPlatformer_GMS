@@ -47,9 +47,10 @@ function TileMeeting3D(newX, newY, tiles) {
 		var leftCollision = tilemap_get_at_pixel(tiles[i], bbox_left, bbox_bottom + ySpeed)
 		var rightCollision = tilemap_get_at_pixel(tiles[i], bbox_right, bbox_bottom + ySpeed);
 		if ((bottomCollision || leftCollision || rightCollision) && z - 1 >= tileZ) {
-			depth = (i + 1) * 100; //Sets the player underneath the tile
+			//depth = (i + 1) * 100; //Sets the player underneath the tile
 			//I tried using tile_get_depth functions, but it kept returning unexpected values,
 			//so I settled on this.
+			//from 0 to -16
 		}
 		
 		//If we did collide in 2D space, then check the 3D space next and return true if there is a collision

@@ -5,8 +5,32 @@ var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
 var jump = keyboard_check_pressed(vk_space);
 
-//Basic x & y Movement
 
+// The initial depth
+//gill will always be rendered on top, unless behind an object
+depth = 90;
+
+for (var i = 0; i < array_length(tiles); ++i) {
+    var tileZ = (i + 1) * -16;
+    
+    var bottomCollision = tilemap_get_at_pixel(tiles[i], objPlayer.x, bbox_bottom + ySpeed);
+    var leftCollision = tilemap_get_at_pixel(tiles[i], bbox_left, bbox_bottom + ySpeed);
+    var rightCollision = tilemap_get_at_pixel(tiles[i], bbox_right, bbox_bottom + ySpeed);
+    
+    // If there's a collision and the player's z-position is higher than the tile's z-position
+    if ((bottomCollision || leftCollision || rightCollision) && z > tileZ) {
+		show_debug_message("behind");
+		//since Gill is behind, we set it to 600.
+		//there is possibility of adding a more complex system to this
+		//if we inted to place smaller towers in front of bigger ones
+		//but thats a little useless.
+		depth = 600;
+    }
+    
+}
+
+
+//Basic x & y Movement and Animation Looping
 if (subimg == 3){
 	subimg = 0;
 }
