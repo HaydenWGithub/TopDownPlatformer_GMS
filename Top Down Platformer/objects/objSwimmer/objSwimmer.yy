@@ -30,8 +30,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprSwimmer",
-    "path": "sprites/sprSwimmer/sprSwimmer.yy",
+    "name": "sprFemaleSOS",
+    "path": "sprites/sprFemaleSOS/sprFemaleSOS.yy",
   },
   "spriteMaskId": null,
   "visible": true,

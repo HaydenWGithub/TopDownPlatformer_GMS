@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprDeathObject",
-    "path": "sprites/sprDeathObject/sprDeathObject.yy",
+    "name": "sprWhirlpool",
+    "path": "sprites/sprWhirlpool/sprWhirlpool.yy",
   },
   "spriteMaskId": null,
   "visible": true,

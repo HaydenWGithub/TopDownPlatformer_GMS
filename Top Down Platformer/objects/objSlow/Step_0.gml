@@ -19,3 +19,4 @@ else {
 	collided = false;
 	objPlayer.moveSpeed = playerSpeed;
 }
+

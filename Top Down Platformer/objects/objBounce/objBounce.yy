@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBounceObject",
-    "path": "sprites/sprBounceObject/sprBounceObject.yy",
+    "name": "sprJellyfish",
+    "path": "sprites/sprJellyfish/sprJellyfish.yy",
   },
   "spriteMaskId": null,
   "visible": true,

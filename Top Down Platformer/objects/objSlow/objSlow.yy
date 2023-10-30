@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSlowObject",
-    "path": "sprites/sprSlowObject/sprSlowObject.yy",
+    "name": "sprKelp",
+    "path": "sprites/sprKelp/sprKelp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
