@@ -175,3 +175,15 @@ if (instance_place(x, y, objSolid)) {
 x += xSpeed;
 y += ySpeed;
 z += zSpeed;
+
+if (!externalSpeedSet)
+{
+    if (numSlowCollisions > 0) {
+        moveSpeed = 1;
+    }
+    else {
+        moveSpeed = 3;
+    }
+}
+// Reset the flag for the next frame
+externalSpeedSet = false;

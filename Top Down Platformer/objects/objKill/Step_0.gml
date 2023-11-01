@@ -11,4 +11,5 @@ if (objPlayer.y + objPlayer.z > y && objPlayer.y + objPlayer.z < y + sprite_heig
 	collided = true;
 	objPlayer.moveSpeed = 0;
 	Wall.wallSpeed = 0;
+	objPlayer.externalSpeedSet = true;
 }

@@ -28,5 +28,7 @@ currentSprite = sprFrontSwim;
 //animation counter
 counter = 0;
 
+numSlowCollisions = 0;
+externalSpeedSet = false;
 
 
