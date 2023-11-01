@@ -621,6 +621,7 @@
     {"name":"inst_38C6DFE2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_75FFB70A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_62126EA0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4ADFF9A2","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -1525,7 +1526,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AA7B94E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":19808.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49A24F1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"properties":[],"rotation":0.0,"scaleX":14.0,"scaleY":1.0,"x":-32.0,"y":19904.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49A24F1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"properties":[],"rotation":0.0,"scaleX":6.25,"scaleY":0.48436886,"x":0.0,"y":19969.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4ADFF9A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objWallCover","path":"objects/objWallCover/objWallCover.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5126051,"x":0.0,"y":19939.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Ground","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":1250,"SerialiseWidth":25,"TileCompressedData":[
 -2850,0,-203,-2147483648,6,16,17,18,16,17,18,-9,-2147483648,3,16,17,18,-3,-2147483648,-2,16,11,17,18,16,
