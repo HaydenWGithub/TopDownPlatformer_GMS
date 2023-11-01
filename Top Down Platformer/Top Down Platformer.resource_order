@@ -5,6 +5,7 @@
     {"name":"playerCamera","order":2,"path":"objects/playerCamera/playerCamera.yy",},
     {"name":"sprPlayer","order":1,"path":"sprites/sprPlayer/sprPlayer.yy",},
     {"name":"Collisions","order":1,"path":"scripts/Collisions/Collisions.yy",},
+    {"name":"sprFloater","order":28,"path":"sprites/sprFloater/sprFloater.yy",},
     {"name":"sprLeftSwim","order":11,"path":"sprites/sprLeftSwim/sprLeftSwim.yy",},
     {"name":"SprALL","order":24,"path":"sprites/SprALL/SprALL.yy",},
     {"name":"Wall","order":3,"path":"objects/Wall/Wall.yy",},

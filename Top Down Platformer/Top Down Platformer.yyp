@@ -39,6 +39,7 @@
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"fntDebugging","path":"fonts/fntDebugging/fntDebugging.yy",},},
     {"id":{"name":"Collisions","path":"scripts/Collisions/Collisions.yy",},},
+    {"id":{"name":"sprFloater","path":"sprites/sprFloater/sprFloater.yy",},},
     {"id":{"name":"sprLeftSwim","path":"sprites/sprLeftSwim/sprLeftSwim.yy",},},
     {"id":{"name":"SprALL","path":"sprites/SprALL/SprALL.yy",},},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},
