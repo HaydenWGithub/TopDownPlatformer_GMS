@@ -63,3 +63,4 @@ function TileMeeting3D(newX, newY, tiles) {
 	//If we get here, then there were no 3D collisions
 	return false;
 }
+

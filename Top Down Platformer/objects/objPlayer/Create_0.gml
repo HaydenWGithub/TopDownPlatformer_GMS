@@ -31,4 +31,6 @@ counter = 0;
 numSlowCollisions = 0;
 externalSpeedSet = false;
 
+isBehind = false;
+
 
