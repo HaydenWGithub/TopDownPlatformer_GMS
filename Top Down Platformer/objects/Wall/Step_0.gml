@@ -5,14 +5,19 @@
 y = y - wallSpeed;
 collided = false;
 
-
-
-
-if (distance_to_object(objPlayer) > 220){
-	wallSpeed = 3.2;
+output = (objPlayer.y - y) * -1;
+show_debug_message(output);
+if ((objPlayer.y - y) * -1 < 70){
+	wallSpeed = 1;
 }
-else {
-	wallSpeed = 1.5;
+else if ((objPlayer.y - y) * -1 < 120){
+	wallSpeed = 2;
+}
+else if ((objPlayer.y - y) * -1 < 220){
+	wallSpeed = 2.5;
+}
+else if ((objPlayer.y - y) * -1 < 420){
+	wallSpeed = 4;
 }
 
 //collide with player
