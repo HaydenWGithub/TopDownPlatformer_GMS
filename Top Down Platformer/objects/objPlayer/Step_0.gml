@@ -10,6 +10,7 @@ var jump = keyboard_check_pressed(vk_space);
 //gill will always be rendered on top, unless behind an object
 depth = 90;
 
+
 /*if (y > objDepthAdjust.y && y < objDepthAdjust.y + objDepthAdjust.sprite_height && x > objDepthAdjust.x && x < objDepthAdjust.x + objDepthAdjust.sprite_width) {
 	show_debug_message("bummed");
     depth = 800; 
@@ -50,6 +51,7 @@ show_debug_message(depth);
 
 //Basic x & y Movement and Animation Looping
 if (subimg == 3){
+	Saved += 100;
 	subimg = 0;
 }
 else{

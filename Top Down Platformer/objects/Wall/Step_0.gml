@@ -26,7 +26,9 @@ else if ((objPlayer.y - y) * -1 < 420){
 if (objPlayer.y + objPlayer.z > y && objPlayer.y + objPlayer.z < y + sprite_height)
 {
 	collided = true;
+	objPlayer.playable = false;
 	objPlayer.moveSpeed = 0;
 	wallSpeed = 0;
 	objPlayer.externalSpeedSet = true;
+	room_goto(rm_GameOver);
 }

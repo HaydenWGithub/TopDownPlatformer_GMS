@@ -35,6 +35,7 @@
   "resources": [
     {"id":{"name":"sprPlayerShadow","path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},},
     {"id":{"name":"Cameras","path":"scripts/Cameras/Cameras.yy",},},
+    {"id":{"name":"fntScore","path":"fonts/fntScore/fntScore.yy",},},
     {"id":{"name":"playerCamera","path":"objects/playerCamera/playerCamera.yy",},},
     {"id":{"name":"objKillRock","path":"objects/objKillRock/objKillRock.yy",},},
     {"id":{"name":"objSlowCoral","path":"objects/objSlowCoral/objSlowCoral.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"sprLeftSwim","path":"sprites/sprLeftSwim/sprLeftSwim.yy",},},
     {"id":{"name":"SprALL","path":"sprites/SprALL/SprALL.yy",},},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},
+    {"id":{"name":"objGameOverText","path":"objects/objGameOverText/objGameOverText.yy",},},
     {"id":{"name":"sprShark","path":"sprites/sprShark/sprShark.yy",},},
     {"id":{"name":"objBounce","path":"objects/objBounce/objBounce.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
@@ -55,8 +57,10 @@
     {"id":{"name":"sprButton","path":"sprites/sprButton/sprButton.yy",},},
     {"id":{"name":"sprBackRun","path":"sprites/sprBackRun/sprBackRun.yy",},},
     {"id":{"name":"objDepthAdjust","path":"objects/objDepthAdjust/objDepthAdjust.yy",},},
+    {"id":{"name":"fntGameOver","path":"fonts/fntGameOver/fntGameOver.yy",},},
     {"id":{"name":"tsTower","path":"tilesets/tsTower/tsTower.yy",},},
     {"id":{"name":"sprMaleSOS","path":"sprites/sprMaleSOS/sprMaleSOS.yy",},},
+    {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"objPlayButton","path":"objects/objPlayButton/objPlayButton.yy",},},
     {"id":{"name":"objBounce2","path":"objects/objBounce2/objBounce2.yy",},},
     {"id":{"name":"objSlowNet","path":"objects/objSlowNet/objSlowNet.yy",},},
@@ -96,6 +100,7 @@
     {"id":{"name":"objSlow","path":"objects/objSlow/objSlow.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprEmpty","path":"sprites/sprEmpty/sprEmpty.yy",},},
+    {"id":{"name":"rm_GameOver","path":"rooms/rm_GameOver/rm_GameOver.yy",},},
     {"id":{"name":"sprBackSwim","path":"sprites/sprBackSwim/sprBackSwim.yy",},},
     {"id":{"name":"tsBeach","path":"tilesets/tsBeach/tsBeach.yy",},},
     {"id":{"name":"sprGeyser","path":"sprites/sprGeyser/sprGeyser.yy",},},
@@ -106,6 +111,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},},
+    {"roomId":{"name":"rm_GameOver","path":"rooms/rm_GameOver/rm_GameOver.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

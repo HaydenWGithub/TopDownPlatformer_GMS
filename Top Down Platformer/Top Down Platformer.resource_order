@@ -1,13 +1,17 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"fntScore","order":1,"path":"fonts/fntScore/fntScore.yy",},
     {"name":"objKillRock","order":3,"path":"objects/objKillRock/objKillRock.yy",},
     {"name":"objSlowCoral","order":4,"path":"objects/objSlowCoral/objSlowCoral.yy",},
     {"name":"objSwimmerStandingFemale","order":8,"path":"objects/objSwimmerStandingFemale/objSwimmerStandingFemale.yy",},
+    {"name":"objGameOverText","order":12,"path":"objects/objGameOverText/objGameOverText.yy",},
     {"name":"sprShark","order":3,"path":"sprites/sprShark/sprShark.yy",},
     {"name":"sprButton","order":9,"path":"sprites/sprButton/sprButton.yy",},
     {"name":"objDepthAdjust","order":1,"path":"objects/objDepthAdjust/objDepthAdjust.yy",},
+    {"name":"fntGameOver","order":2,"path":"fonts/fntGameOver/fntGameOver.yy",},
     {"name":"sprMaleSOS","order":7,"path":"sprites/sprMaleSOS/sprMaleSOS.yy",},
+    {"name":"Sprite39","order":10,"path":"sprites/Sprite39/Sprite39.yy",},
     {"name":"objPlayButton","order":11,"path":"objects/objPlayButton/objPlayButton.yy",},
     {"name":"objSlowNet","order":5,"path":"objects/objSlowNet/objSlowNet.yy",},
     {"name":"sprFemaleStandingSOS","order":1,"path":"sprites/sprFemaleStandingSOS/sprFemaleStandingSOS.yy",},
@@ -22,5 +26,6 @@
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"sprTitle","order":8,"path":"sprites/sprTitle/sprTitle.yy",},
     {"name":"objSwimmerMale","order":7,"path":"objects/objSwimmerMale/objSwimmerMale.yy",},
+    {"name":"rm_GameOver","order":2,"path":"rooms/rm_GameOver/rm_GameOver.yy",},
   ],
 }

@@ -9,6 +9,6 @@ collided = false;
 if (objPlayer.y + objPlayer.z > y && objPlayer.y + objPlayer.z < y + sprite_height && objPlayer.x > x && objPlayer.x < x + sprite_width  && objPlayer.z == z)
 {
 	collided = true;
-	objPlayer.Saved += 1;
+	objPlayer.Saved += 500;
 	instance_destroy(self);
 }
