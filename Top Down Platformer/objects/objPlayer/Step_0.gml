@@ -22,7 +22,7 @@ depth = 90;
     // Reset to default depth (or whatever depth-handling logic you have)
 }*/
 if (isBehind){
-	depth = 800;
+	depth = 901;
 }
 
 for (var i = 0; i < array_length(tiles); ++i) {
