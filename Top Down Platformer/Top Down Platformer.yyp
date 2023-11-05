@@ -34,6 +34,7 @@
   },
   "resources": [
     {"id":{"name":"sprPlayerShadow","path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},},
+    {"id":{"name":"objControls","path":"objects/objControls/objControls.yy",},},
     {"id":{"name":"Cameras","path":"scripts/Cameras/Cameras.yy",},},
     {"id":{"name":"sprPrompt6","path":"sprites/sprPrompt6/sprPrompt6.yy",},},
     {"id":{"name":"fntScore","path":"fonts/fntScore/fntScore.yy",},},
@@ -72,6 +73,7 @@
     {"id":{"name":"sprFemaleSOS","path":"sprites/sprFemaleSOS/sprFemaleSOS.yy",},},
     {"id":{"name":"sprFemaleStandingSOS","path":"sprites/sprFemaleStandingSOS/sprFemaleStandingSOS.yy",},},
     {"id":{"name":"sprWhirlpool","path":"sprites/sprWhirlpool/sprWhirlpool.yy",},},
+    {"id":{"name":"sprControls","path":"sprites/sprControls/sprControls.yy",},},
     {"id":{"name":"sprFishingNet","path":"sprites/sprFishingNet/sprFishingNet.yy",},},
     {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},},
     {"id":{"name":"sprMaleStandingSOS","path":"sprites/sprMaleStandingSOS/sprMaleStandingSOS.yy",},},

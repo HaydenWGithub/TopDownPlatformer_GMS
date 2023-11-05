@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"objControls","order":14,"path":"objects/objControls/objControls.yy",},
     {"name":"sprPrompt6","order":17,"path":"sprites/sprPrompt6/sprPrompt6.yy",},
     {"name":"fntScore","order":1,"path":"fonts/fntScore/fntScore.yy",},
     {"name":"objKillRock","order":3,"path":"objects/objKillRock/objKillRock.yy",},
@@ -20,6 +21,7 @@
     {"name":"objSlowNet","order":5,"path":"objects/objSlowNet/objSlowNet.yy",},
     {"name":"sprPrompt2","order":13,"path":"sprites/sprPrompt2/sprPrompt2.yy",},
     {"name":"sprFemaleStandingSOS","order":1,"path":"sprites/sprFemaleStandingSOS/sprFemaleStandingSOS.yy",},
+    {"name":"sprControls","order":21,"path":"sprites/sprControls/sprControls.yy",},
     {"name":"sprFishingNet","order":5,"path":"sprites/sprFishingNet/sprFishingNet.yy",},
     {"name":"Sprite49","order":20,"path":"sprites/Sprite49/Sprite49.yy",},
     {"name":"sprMaleStandingSOS","order":2,"path":"sprites/sprMaleStandingSOS/sprMaleStandingSOS.yy",},

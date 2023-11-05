@@ -667,6 +667,7 @@
     {"name":"inst_506B7230","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_58F63A68","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_3B63374E","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_35D5E063","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -674,6 +675,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B332DC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"properties":[],"rotation":0.0,"scaleX":0.5507746,"scaleY":0.76363635,"x":40.99904,"y":19569.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FEA1309","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objPlayButton","path":"objects/objPlayButton/objPlayButton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":168.00241,"y":19704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_506B7230","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objMenuCameraFollow","path":"objects/objMenuCameraFollow/objMenuCameraFollow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":168.00095,"y":19828.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35D5E063","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objControls","path":"objects/objControls/objControls.yy",},"properties":[],"rotation":0.0,"scaleX":0.5450237,"scaleY":0.55709344,"x":32.0,"y":19648.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_48","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B9C2156_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSwimmer","path":"objects/objSwimmer/objSwimmer.yy",},"properties":[
