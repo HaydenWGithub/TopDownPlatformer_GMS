@@ -9,8 +9,6 @@ collided = false;
 if (objPlayer.y + objPlayer.z > y && objPlayer.y + objPlayer.z < y + sprite_height && objPlayer.x > x && objPlayer.x < x + sprite_width  && objPlayer.z == z)
 {
 	collided = true;
-	objPlayer.moveSpeed = 0;
 	Wall.wallSpeed = 0;
-	objPlayer.externalSpeedSet = true;
-	room_goto(rm_GameOver);
+	objPlayer.playable = false;;
 }

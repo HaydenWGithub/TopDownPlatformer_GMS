@@ -4,6 +4,7 @@
     {"name":"fntScore","order":1,"path":"fonts/fntScore/fntScore.yy",},
     {"name":"objKillRock","order":3,"path":"objects/objKillRock/objKillRock.yy",},
     {"name":"objSlowCoral","order":4,"path":"objects/objSlowCoral/objSlowCoral.yy",},
+    {"name":"sprWin","order":11,"path":"sprites/sprWin/sprWin.yy",},
     {"name":"objSwimmerStandingFemale","order":8,"path":"objects/objSwimmerStandingFemale/objSwimmerStandingFemale.yy",},
     {"name":"objGameOverText","order":12,"path":"objects/objGameOverText/objGameOverText.yy",},
     {"name":"sprShark","order":3,"path":"sprites/sprShark/sprShark.yy",},
@@ -27,5 +28,6 @@
     {"name":"sprTitle","order":8,"path":"sprites/sprTitle/sprTitle.yy",},
     {"name":"objSwimmerMale","order":7,"path":"objects/objSwimmerMale/objSwimmerMale.yy",},
     {"name":"rm_GameOver","order":2,"path":"rooms/rm_GameOver/rm_GameOver.yy",},
+    {"name":"objFinishLine","order":13,"path":"objects/objFinishLine/objFinishLine.yy",},
   ],
 }
